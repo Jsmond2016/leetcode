@@ -18,3 +18,9 @@ jobs:
         run: |
           yarn install
           yarn build
+      - name: 部署到github-page...
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          branch: gh-pages
+          folder: docs/.vitepress/dist

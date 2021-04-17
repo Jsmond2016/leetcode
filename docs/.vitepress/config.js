@@ -6,6 +6,7 @@ module.exports = {
   themeConfig: {
     repo: 'Jsmond2016/leetcode-practice',
     docsDir: 'docs',
+    base: "/vitepress-test/",
 
     editLinks: true,
     editLinkText: 'Edit this page on GitHub',
