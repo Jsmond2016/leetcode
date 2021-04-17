@@ -59,7 +59,7 @@
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -162,7 +162,7 @@ function getMajority(nums, left, right) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**

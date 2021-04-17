@@ -52,7 +52,7 @@
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -126,7 +126,7 @@ var search = function(nums, target) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -205,7 +205,7 @@ var searchInsert = function(nums, target) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -298,7 +298,7 @@ var findPeakElement = function(nums) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -332,7 +332,7 @@ var searchMatrix = function(matrix, target) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 var searchMatrix = function(matrix, target) {

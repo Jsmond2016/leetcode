@@ -122,7 +122,7 @@ var fib = function(n) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 **
@@ -161,7 +161,7 @@ var reverseList = function(head) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -239,7 +239,7 @@ var reverseList = function(head) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 
@@ -272,7 +272,7 @@ var reverseString = function(s) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**

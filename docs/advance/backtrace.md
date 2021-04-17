@@ -60,7 +60,7 @@
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -145,7 +145,7 @@ function backtracking(n, result, left, right, str) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -193,7 +193,7 @@ var subsets = function(nums) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -233,7 +233,7 @@ function backtracking(nums, result, length, index, sub) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**

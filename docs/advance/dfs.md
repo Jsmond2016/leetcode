@@ -57,7 +57,7 @@ DFS 和 回溯算法的区别：
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -134,7 +134,7 @@ function dfs (nums, result, index, sub) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -175,7 +175,7 @@ var rangeSumBST = function(root, low, high) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -282,7 +282,7 @@ var rangeSumBST = function(root, low, high) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -334,7 +334,7 @@ function dfs(grid, x, y, row, col) {
 
 <details>
   <summary>
-      <mark><font>点击查看详细内容</font></mark></summary>
+      <mark>点击查看详细内容</mark></summary>
 
 ```js
 var numIslands = function(grid) {
