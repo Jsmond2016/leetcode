@@ -2,7 +2,7 @@ module.exports = {
   lang: 'zh-CN',
   title: '数据结构和算法',
   description: '数据结构和算法小知识汇总',
-  base: "/vitepress-test/",
+  base: "/leetcode/",
   themeConfig: {
     repo: 'Jsmond2016/leetcode-practice',
     docsDir: 'docs',
