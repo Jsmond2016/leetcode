@@ -8,7 +8,7 @@ module.exports = {
     docsDir: 'docs',
 
     editLinks: true,
-    editLinkText: 'Edit this page on GitHub',
+    editLinkText: '编辑本页',
     lastUpdated: '最后更新时间',
 
     algolia: {
@@ -23,16 +23,16 @@ module.exports = {
     },
 
     nav: [
-      { text: '首页', link: '/', activeMatch: '^/$|^/guide/' },
-      {
-        text: '归档',
-        link: '/config/basics',
-        activeMatch: '^/config/'
-      },
-      {
-        text: '分类',
-        link: '/category'
-      }
+      { text: '首页', link: '/', activeMatch: '^/$|^/base|advance/' },
+      // {
+      //   text: '归档',
+      //   link: '/config/basics',
+      //   activeMatch: '^/config/'
+      // },
+      // {
+      //   text: '分类',
+      //   link: '/category'
+      // }
     ],
 
     sidebar: {
@@ -51,11 +51,11 @@ function getGuideSidebar() {
         { text: '复杂度', link: '/base/complexity' },
         { text: '数组', link: '/base/array' },
         { text: '链表', link: '/base/linkedlist' },
-        { text: '队列', link: '/base/queue' },
-        { text: '栈', link: '/base/stack' },
-        { text: '哈希集合', link: '/base/hash-collection' },
-        { text: '树', link: '/base/tree' },
-        { text: '堆', link: '/base/heap' },
+        // { text: '队列', link: '/base/queue' },
+        // { text: '栈', link: '/base/stack' },
+        // { text: '哈希集合', link: '/base/hash-collection' },
+        // { text: '树', link: '/base/tree' },
+        // { text: '堆', link: '/base/heap' },
       ]
     },
     {
@@ -73,7 +73,7 @@ function getGuideSidebar() {
         {text: '贪心算法',link: '/advance/greddy'},
         {text: '记忆化搜索',link: '/advance/memory-search'},
         {text: '动态规划',link: '/advance/dp'},
-        {text: '前缀树',link: '/advance/prefix-tree'},
+      //   {text: '前缀树',link: '/advance/prefix-tree'},
       ]
     }
   ]
