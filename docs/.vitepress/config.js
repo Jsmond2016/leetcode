@@ -16,11 +16,11 @@ module.exports = {
       indexName: 'vitepress'
     },
 
-    carbonAds: {
-      carbon: 'CEBDT27Y',
-      custom: 'CKYD62QM',
-      placement: 'vuejsorg'
-    },
+    // carbonAds: {
+    //   carbon: 'CEBDT27Y',
+    //   custom: 'CKYD62QM',
+    //   placement: 'vuejsorg'
+    // },
 
     nav: [
       { text: '首页', link: '/', activeMatch: '^/$|^/base|advance/' },
@@ -79,7 +79,14 @@ function getGuideSidebar() {
     {
       text: '分类题集',
       children: [
+        // { text: '链表', link: '/leetbook/linked-list' },
+        // { text: '数组', link: '/leetbook/array-string' },
         { text: '数组和字符串', link: '/leetbook/array-string' },
+        // { text: '栈和队列', link: '/leetbook/stack-queue' },
+        // { text: '树', link: '/leetbook/tree' }, // 包括树，二叉树，N叉树
+        // { text: '二分查找', link: '/leetbook/binary-search' },
+        // { text: '前缀树', link: '/leetbook/prefix-tree' },
+        // { text: '哈希表', link: '/leetbook/hash' },
       ]
     }
   ]
