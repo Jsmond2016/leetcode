@@ -75,6 +75,12 @@ function getGuideSidebar() {
         {text: '动态规划',link: '/advance/dp'},
       //   {text: '前缀树',link: '/advance/prefix-tree'},
       ]
+    },
+    {
+      text: '分类题集',
+      children: [
+        { text: '数组和字符串', link: '/leetbook/array-string' },
+      ]
     }
   ]
 }
