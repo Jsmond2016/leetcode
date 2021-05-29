@@ -4,7 +4,7 @@ module.exports = {
   description: '数据结构和算法小知识汇总',
   base: "/leetcode/",
   themeConfig: {
-    repo: 'Jsmond2016/leetcode-practice',
+    repo: 'Jsmond2016/leetcode',
     docsDir: 'docs',
 
     editLinks: true,
