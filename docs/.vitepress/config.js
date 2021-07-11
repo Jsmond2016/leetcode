@@ -1,3 +1,6 @@
+const taskLists = require('markdown-it-task-lists');
+
+
 module.exports = {
   lang: 'zh-CN',
   title: '数据结构和算法',
@@ -39,6 +42,13 @@ module.exports = {
       // '/base/': getGuideSidebar(),
       // '/advance/': getConfigSidebar(),
       '/': getGuideSidebar()
+    },
+  },
+  markdown: {
+
+    config: (md) => {
+      // use more markdown-it plugins!
+      md.use(taskLists)
     }
   }
 }
