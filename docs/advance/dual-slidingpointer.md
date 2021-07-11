@@ -1,5 +1,7 @@
 # 双指针算法
 
+![](./img/2-pointers.png)
+
 > https://www.bilibili.com/video/BV1sy4y1q79M?p=46
 
 常用策略：
@@ -10,10 +12,144 @@
 
 练习题：
 
+- 26:  普通双指针
 - 141：快慢指针
 - 881：将无序转换成有序，将有序换成对撞指针
-
+- 剑指 Offer 57 - II. 和为s的连续正数序列
 ----
+
+## 双指针模板
+
+### [剑指 Offer 57 - II. 和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
+
+输入一个正整数 target ，输出所有和为 target 的连续正整数序列（至少含有两个数）。
+
+序列内的数字由小到大排列，不同序列按照首个数字从小到大排列。
+
+ 
+
+示例 1：
+
+输入：target = 9
+输出：[[2,3,4],[4,5]]
+示例 2：
+
+输入：target = 15
+输出：[[1,2,3,4,5],[4,5,6],[7,8]]
+
+```js
+/**
+ * @param {number} target
+ * @return {number[][]}
+ */
+// 没有参照物数组 但是可以根据下标
+// 滑动窗口（双指针）
+var findContinuousSequence = function(target) {
+    let l=1
+    let r=2
+    let sum = 3
+    let res=[]
+    // 滑动窗口框架
+    while(l<r){
+        if(sum===target){
+            let ans =[]
+            for(let k=l;k<=r;k++){
+                ans[k-l]=k
+            }
+            res.push(ans)
+            // 等于的情况 我们可以继续窗口往右搜索 同时缩小左边的
+             sum=sum-l
+             l++
+        } else if(sum>target){
+            // 大于的条件 缩小窗口 sum已经加过了
+            sum=sum-l
+            l++
+        } else {
+            // 小于的情况 滑动窗口继续扩大
+            r++
+            sum=sum+r
+        }
+    }
+    return res
+};
+
+```
+
+参考题解：[](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/song-gei-qian-duan-tong-xue-tong-su-yi-d-u7z9/)
+
+---
+
+
+## 普通双指针
+
+### [26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+
+
+给你一个有序数组 nums ，请你 原地 删除重复出现的元素，使每个元素 只出现一次 ，返回删除后数组的新长度。
+
+不要使用额外的数组空间，你必须在 原地 修改输入数组 并在使用 O(1) 额外空间的条件下完成。
+
+
+说明:
+
+为什么返回数值是整数，但输出的答案是数组呢?
+
+请注意，输入数组是以「引用」方式传递的，这意味着在函数里修改输入数组对于调用者是可见的。
+
+你可以想象内部操作如下:
+
+// nums 是以“引用”方式传递的。也就是说，不对实参做任何拷贝
+int len = removeDuplicates(nums);
+
+// 在函数里修改输入数组对于调用者是可见的。
+// 根据你的函数返回的长度, 它会打印出数组中 该长度范围内 的所有元素。
+for (int i = 0; i < len; i++) {
+    print(nums[i]);
+}
+ 
+示例 1：
+
+输入：nums = [1,1,2]
+输出：2, nums = [1,2]
+解释：函数应该返回新的长度 2 ，并且原数组 nums 的前两个元素被修改为 1, 2 。不需要考虑数组中超出新长度后面的元素。
+示例 2：
+
+输入：nums = [0,0,1,1,1,2,2,3,3,4]
+输出：5, nums = [0,1,2,3,4]
+解释：函数应该返回新的长度 5 ， 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4 。不需要考虑数组中超出新长度后面的元素。
+ 
+
+提示：
+
+0 <= nums.length <= 3 * 104
+-104 <= nums[i] <= 104
+nums 已按升序排列
+
+---
+
+- 方法：普通双指针-同向，利用数组有序
+- 题解：
+
+```js
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var removeDuplicates = function(nums) {
+    let n = nums.length
+    let l = 0
+    for (let r = 1; r < n; r ++) {
+        if (nums[l] !== nums[r]) {
+            nums[++l] = nums[r]
+        }
+    }
+    return l + 1
+};
+
+```
+
+参考资料：[双指针解删除有序数组中的重复项](https://mp.weixin.qq.com/s?__biz=MzU0ODMyNDk0Mw==&mid=2247490683&idx=1&sn=a9e7f705947bbad5a3fb98fdb664d828&chksm=fb418f5bcc36064d9d9535dc9b2176d66d8acf48ff8cd272c40e1e3ec68bf3d484fd235eaecd&token=1392348003&lang=zh_CN#rd)
+
 
 ## 快慢指针
 
@@ -177,3 +313,4 @@ var numRescueBoats = function(people, limit) {
     return res
 };
 ```
+
