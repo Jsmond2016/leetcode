@@ -79,29 +79,24 @@
 - 题解：
 - 答案
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
-
 ```js
-    /**
-     * @param {ListNode} head
-     * @return {boolean}
-     */
-    var hasCycle = function(head) {
-        if (!head) return false
-        let slow = head, fast = head;
-        while(fast && fast.next) {
-            slow = slow.next
-            fast = fast.next.next
-            if (slow === fast) {
-                return true
-            }
+/**
+ * @param {ListNode} head
+ * @return {boolean}
+ */
+var hasCycle = function(head) {
+    if (!head) return false
+    let slow = head, fast = head;
+    while(fast && fast.next) {
+        slow = slow.next
+        fast = fast.next.next
+        if (slow === fast) {
+            return true
         }
-      return false
-    };
+    }
+    return false
+};
 ```
-</details>
 
 
 
@@ -161,10 +156,6 @@
 解法： 将数组转换成有序，使用对对撞指针
 
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
-
 ```js
 /**
  * @param {number[]} people
@@ -186,4 +177,3 @@ var numRescueBoats = function(people, limit) {
     return res
 };
 ```
-</details>

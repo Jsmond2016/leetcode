@@ -50,9 +50,6 @@
 - 题解：
 - 答案：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -78,7 +75,6 @@ var search = function(nums, target) {
     return -1
 };
 ```
-</details>
 
 
 
@@ -124,10 +120,6 @@ var search = function(nums, target) {
 - 题解：
 - 答案：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
-
 ```js
 /**
  * @param {number[]} nums
@@ -154,7 +146,6 @@ var searchInsert = function(nums, target) {
 };
 ```
 
-</details>
 
 
 
@@ -203,10 +194,6 @@ var searchInsert = function(nums, target) {
 - 题解：
 - 答案：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
-
 ```js
 /**
  * @param {number[]} nums
@@ -234,7 +221,6 @@ var findPeakElement = function(nums) {
 };
 ```
 
-</details>
 
 
 
@@ -296,10 +282,6 @@ var findPeakElement = function(nums) {
 
 方法1：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
-
 ```js
 /**
  * @param {number[][]} matrix
@@ -324,15 +306,11 @@ var searchMatrix = function(matrix, target) {
 };
 ```
 
-</details>
 
 
 
 方法2：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 var searchMatrix = function(matrix, target) {
@@ -366,5 +344,3 @@ var searchMatrix = function(matrix, target) {
     return false
 };
 ```
-
-</details>

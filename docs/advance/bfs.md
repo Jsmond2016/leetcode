@@ -67,9 +67,6 @@ BFS 常用工具：
 - 方法：
 - 使用 BFS 
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -111,8 +108,6 @@ var levelOrder = function(root) {
     return result
 };
 ```
-</details>
-
 
 - 使用 DFS
 
@@ -120,9 +115,6 @@ var levelOrder = function(root) {
 
 Code：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
  var levelOrder = function(root) {
@@ -153,7 +145,6 @@ Code：
  }
 
 ```
-</details>
 
 
 
@@ -201,10 +192,6 @@ Code：
 技巧：因为 链表可以快速 插入，时间复杂度 O(1)，如果使用 数组，则时间复杂度为 O(n)
 
 Code：
-
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 
 ```js
@@ -258,16 +245,11 @@ var levelOrderBottom = function(root) {
     return result
 };
 ```
-</details>
 
 
 实际为：
 
 Code：
-
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -313,16 +295,11 @@ var levelOrderBottom = function(root) {
     return result
 };
 ```
-</details>
 
 
 - DFS + reverse
 
 Code：
-
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 var levelOrderBottom = function(root) {
@@ -351,5 +328,5 @@ function dfs(node, result, level) {
     }
 }
 ```
-</details>
+
 

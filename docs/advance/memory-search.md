@@ -78,9 +78,6 @@ public int fib(int n) {
 - 记忆化搜索
 
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 var fib = function (n) {
@@ -104,7 +101,7 @@ function memorySearch(n, map) {
     return res
 }
 ```
-</details>
+
 
 
 
@@ -179,9 +176,7 @@ function memorySearch(n, map) {
 - 记忆化搜索方法
 
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 var coinChange = function(coins, amount) {
@@ -221,5 +216,5 @@ function findWay(coins, memo, amount) {
 }
 
 ```
-</details>
+
 

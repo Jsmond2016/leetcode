@@ -120,9 +120,7 @@ var fib = function(n) {
 
 迭代方法：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 **
@@ -153,15 +151,13 @@ var reverseList = function(head) {
   return dummy.next
 };
 ```
-</details> 
+
 
 
 
 递归法：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 /**
@@ -187,7 +183,7 @@ var reverseList = function(head) {
     return p
 };
 ```
-</details> 
+
 
 
 
@@ -237,9 +233,7 @@ var reverseList = function(head) {
 - 答案：
 - 说明：递归方法有点取巧，值得反复看！！
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 
@@ -263,16 +257,14 @@ var reverseString = function(s) {
     recurversion(s, l, r)
 }
 ```
-</details>
+
 
 
 
 
 也可以用双指针法：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 /**
@@ -297,4 +289,4 @@ var reverseString = function(s) {
     return s
 };
 ```
-</details>
+

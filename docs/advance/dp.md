@@ -85,9 +85,6 @@ F(n) = F(n - 1) + F(n - 2)，其中 n > 1
 
 Code：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 var fib = function(n) {
@@ -101,7 +98,7 @@ var fib = function(n) {
   return sum
 };
 ```
-</details>
+
 
 
 
@@ -191,9 +188,6 @@ var fib = function(n) {
 
 Code：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -218,7 +212,6 @@ var uniquePaths = function(m, n) {
     return f[m-1][n-1]
 };
 ```
-</details>
 
 
 
@@ -272,9 +265,6 @@ var uniquePaths = function(m, n) {
 
 Code：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -297,7 +287,6 @@ var maxProfit = function(prices) {
   return maxProfit
 };
 ```
-</details>
 
 
 
@@ -346,9 +335,7 @@ Code：
 
 - 方法1：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 var climbStairs = function(n) {
@@ -362,15 +349,12 @@ var climbStairs = function(n) {
 };
 
 ```
-</details>
+
 
 
 
 - 方法2：https://leetcode-cn.com/problems/climbing-stairs/solution/hua-jie-suan-fa-70-pa-lou-ti-by-guanpengchn/
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 // 方法2
@@ -388,7 +372,7 @@ var climbStairs = function(n) {
     return dp[n];
 };
 ```
-</details>
+
 
 
 
@@ -438,9 +422,7 @@ var climbStairs = function(n) {
 
 Code：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 /**
@@ -459,4 +441,4 @@ var numSquares = function(n) {
 };
 
 ```
-</details>
+

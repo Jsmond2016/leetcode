@@ -55,10 +55,6 @@ DFS 和 回溯算法的区别：
 - 说明：
 - 代码：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
-
 ```js
 /**
  * @param {number[]} nums
@@ -81,7 +77,7 @@ function dfs (nums, result, index, sub) {
         }
 }
 ```
-</details>
+
 
 
 
@@ -132,10 +128,6 @@ function dfs (nums, result, index, sub) {
 
 - DFS
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
-
 ```js
 /**
  * Definition for a binary tree node.
@@ -165,7 +157,7 @@ var rangeSumBST = function(root, low, high) {
     return total
 };
 ```
-</details>
+
 
 
 
@@ -173,9 +165,7 @@ var rangeSumBST = function(root, low, high) {
 
 - BFS
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 /**
@@ -216,7 +206,7 @@ var rangeSumBST = function(root, low, high) {
     return result
 };
 ```
-</details>
+
 
 
 
@@ -280,9 +270,7 @@ var rangeSumBST = function(root, low, high) {
 
 - DFS
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 /**
@@ -326,15 +314,12 @@ function dfs(grid, x, y, row, col) {
 
 }
 ```
-</details>
+
 
 
 
 - BFS + queue
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 var numIslands = function(grid) {
@@ -389,7 +374,7 @@ var numIslands = function(grid) {
 };
 
 ```
-</details>
+
 
 
 

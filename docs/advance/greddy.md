@@ -83,9 +83,7 @@ Code：
 
 - 动态规划1
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 /**
@@ -121,15 +119,12 @@ var coinChange = function(coins, amount) {
 };
 
 ```
-</details>
+
 
 
 
 - 动态规划2 https://leetcode-cn.com/problems/coin-change/solution/322-ling-qian-dui-huan-by-leetcode-solution/
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 var coinChange = function(coins, amount) {
@@ -147,7 +142,7 @@ var coinChange = function(coins, amount) {
 }
 
 ```
-</details>
+
 
 
 
@@ -156,9 +151,6 @@ var coinChange = function(coins, amount) {
 - 记忆化搜索：https://leetcode-cn.com/problems/coin-change/solution/322-ling-qian-dui-huan-by-leetcode-solution/
 
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 var coinChange = function(coins, amount) {
@@ -188,7 +180,7 @@ function memorySearch (coins, rem, count) {
     return count[rem -1]
 }
 ```
-</details>
+
 
 
 
@@ -246,10 +238,6 @@ function memorySearch (coins, rem, count) {
 Code：
 
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
-
 ```js
 var minCostToMoveChips = function(position) {
     let odd = 0, even = 0
@@ -262,7 +250,7 @@ var minCostToMoveChips = function(position) {
     return Math.min(even, odd)
 };
 ```
-</details>
+
 
 
 
@@ -320,9 +308,7 @@ var minCostToMoveChips = function(position) {
 
 Code：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 /**
@@ -341,7 +327,7 @@ var canJump = function(nums) {
     return true
 };
 ```
-</details>
+
 
 
 

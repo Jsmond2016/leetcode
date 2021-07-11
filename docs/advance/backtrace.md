@@ -58,10 +58,6 @@
 
 - 代码
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
-
 ```js
 /**
  * @param {number} n
@@ -94,7 +90,6 @@ function backtracking(n, result, left, right, str) {
     }
 }
 ```
-</details>
 
 
 
@@ -143,9 +138,6 @@ function backtracking(n, result, left, right, str) {
 
 ![](./img/pic-003.png)
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -185,15 +177,11 @@ var subsets = function(nums) {
 	return result
 };
 ```
-</details>
 
 
 
 - 递归回溯法
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -225,15 +213,11 @@ function backtracking(nums, result, length, index, sub) {
     }
 }
 ```
-</details>
 
 
 
 - DFS 法
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
 
 ```js
 /**
@@ -257,5 +241,4 @@ function dfs (nums, result, index, sub) {
         }
 }
 ```
-</details>
 

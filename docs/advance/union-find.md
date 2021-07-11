@@ -170,9 +170,7 @@ class UniFind {
 - 题解：https://mp.weixin.qq.com/s/it_asGIDqQBoOrzdL1j2CQ
 - 代码：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 var numIslands = function(grid) {
@@ -248,7 +246,7 @@ class UniFind {
 }
 
 ```
-</details>
+
 
 
 
@@ -308,9 +306,7 @@ class UniFind {
 
 Code：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 var findCircleNum = function(isConnected) {
@@ -351,7 +347,7 @@ const find = (parent, index) => {
     return parent[index];
 }
 ```
-</details>
+
 
 
 
@@ -359,9 +355,7 @@ const find = (parent, index) => {
 
 - 方法2：DFS 
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 var findCircleNum = function(isConnected) {
@@ -386,7 +380,7 @@ const dfs = (isConnected, visited, provinces, i) => {
     }
 };
 ```
-</details>
+
 
 
 

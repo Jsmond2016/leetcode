@@ -57,9 +57,7 @@
   - 边界条件：下标相同，则到底了，改返回上一个栈结果了
 - 代码：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 /**
@@ -95,7 +93,7 @@ function getMajority(nums, left, right) {
     return Math.max(leftCount, rightCount) === leftCount ? leftMajority : rightMajority
 }
 ```
-</details>
+
 
 
 ### [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
@@ -160,9 +158,7 @@ function getMajority(nums, left, right) {
 - 视频：https://www.bilibili.com/video/BV1sy4y1q79M?p=63
 - 代码：
 
-<details>
-  <summary>
-      <mark>点击查看详细内容</mark></summary>
+
 
 ```js
 /**
@@ -216,4 +212,3 @@ function getCrossMax(nums, l, r) {
     return leftMax + rightMax;
 }
 ```
-</details>
