@@ -1,6 +1,15 @@
 # 数据结构和算法学习
 
 
+## 学习资料：
+
+- [github-算法通关之路](https://github.com/azl397985856/leetcode)
+- [力扣加加](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
+- [labuladong 的算法小抄](https://github.com/labuladong/fucking-algorithm)
+- [针对小白的算法训练](https://github.com/geekxh/hello-algorithm)
+- [小浩算法-预览](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/01.html)
+- [算法基地](https://github.com/chefyuan/algorithm-base)
+- [面试助力-算法101](https://101.zoo.team/)
 ## 数据结构基础知识
 
 - 时间复杂度
