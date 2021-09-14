@@ -1,1 +1,0 @@
-import{o as t,c as e}from"./app.fc6cf698.js";const r='{"title":"测试","description":"","frontmatter":{"date":"2021-04-17T00:00:00.000Z","title":"测试","tags":["测试 1","测试 2"],"describe":"测试"},"relativePath":"base/array.md","lastUpdated":1631546593086}',a={};a.render=function(r,a,d,i,o,s){return t(),e("div")};export default a;export{r as __pageData};
