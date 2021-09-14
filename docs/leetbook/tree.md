@@ -3,15 +3,19 @@
 > 来源：[leetbook-二叉树](https://leetcode-cn.com/leetbook/read/data-structure-binary-tree/x63shc/)
 
 
+更多资料：
+
+- [我要打十个！二叉树层序遍历登场](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/dai-ma-sui-xiang-lu-er-cha-shu-ceng-xu-b-zhun/)
+
 ## 树的遍历
 
 ### 前序遍历
 
 - [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 
+给你二叉树的根节点 root ，返回它节点值的 前序 遍历。
 
-给你二叉树的根节点 root ，返回它节点值的 前序 遍历。
-
+ 
 
 示例 1：
 
@@ -36,8 +40,15 @@
 
 输入：root = [1,null,2]
 输出：[1,2]
- 
-提示：树中节点数目在范围 [0, 100] 内, -100 <= Node.val <= 100
+
+
+提示：
+
+树中节点数目在范围 [0, 100] 内
+-100 <= Node.val <= 100
+
+
+进阶：递归算法很简单，你可以通过迭代算法完成吗？
 
 
 ---
@@ -80,9 +91,9 @@ var preorderTraversal = function(root) {
 
 - [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 
-给定一个二叉树的根节点 root ，返回它的 中序 遍历。
+给定一个二叉树的根节点 root ，返回它的 中序 遍历。
 
- 
+ 
 
 示例 1：
 
@@ -107,12 +118,15 @@ var preorderTraversal = function(root) {
 
 输入：root = [1,null,2]
 输出：[1,2]
- 
+
 
 提示：
 
 树中节点数目在范围 [0, 100] 内
 -100 <= Node.val <= 100
+
+
+进阶: 递归算法很简单，你可以通过迭代算法完成吗？
 
 ---
 
@@ -153,7 +167,7 @@ var inorderTraversal = function(root) {
 
 - [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 
-给定一个二叉树，返回它的 后序 遍历。
+给定一个二叉树，返回它的 后序 遍历。
 
 示例:
 
@@ -165,7 +179,7 @@ var inorderTraversal = function(root) {
    3 
 
 输出: [3,2,1]
-进阶: 递归算法很简单，你可以通过迭代算法完成吗
+进阶: 递归算法很简单，你可以通过迭代算法完成吗？
 
 ---
 
@@ -346,8 +360,6 @@ var maxDepth = function(root) {
 
 给定一个二叉树，检查它是否是镜像对称的。
 
- 
-
 例如，二叉树 [1,2,2,3,4,4,3] 是对称的。
 
     1
@@ -355,7 +367,7 @@ var maxDepth = function(root) {
   2   2
  / \ / \
 3  4 4  3
- 
+
 
 但是下面这个 [1,2,2,null,3,null,3] 则不是镜像对称的:
 
@@ -364,7 +376,7 @@ var maxDepth = function(root) {
   2   2
    \   \
    3    3
- 
+
 
 进阶：
 
