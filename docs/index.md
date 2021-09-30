@@ -1,5 +1,22 @@
 # 数据结构和算法学习
 
+**001阶段**
+
+就下面这四套题，干！！！！！
+
+- [初级算法 - 帮助入门](https://leetcode-cn.com/leetbook/detail/top-interview-questions-easy/)
+- [中级算法 - 巩固训练](https://leetcode-cn.com/leetbook/detail/top-interview-questions-medium/)
+- [高级算法 - 提升进阶](https://leetcode-cn.com/leetbook/detail/top-interview-questions-hard/)
+- [算法面试题汇总](https://leetcode-cn.com/leetbook/detail/top-interview-questions/)
+
+**002阶段**
+
+- [ LeetCode 热题 HOT 100](https://leetcode-cn.com/problem-list/2cktkvj/)
+
+**003阶段**
+- [Cookbook-Go](https://leetcode-cn.com/leetbook/read/leetcode-cookbook/5is6a6/) 使用Go几百道题
+
+以及下面的 算法题资料：
 
 ## 学习资料：
 

@@ -89,16 +89,33 @@ function getGuideSidebar() {
     {
       text: '分类题集',
       children: [
-        // { text: '链表', link: '/leetbook/linked-list' },
+        // 链表 https://leetcode-cn.com/leetbook/detail/linked-list/
+        { text: '链表', link: '/leetbook/linked-list' },
+        // 数组 https://leetcode-cn.com/leetbook/detail/all-about-array/
+        // 数组和字符串 https://leetcode-cn.com/leetbook/detail/array-and-string/
         // { text: '数组', link: '/leetbook/array-string' },
         { text: '数组和字符串', link: '/leetbook/array-string' },
+        // 队列和栈 https://leetcode-cn.com/leetbook/detail/queue-stack/
         // { text: '栈和队列', link: '/leetbook/stack-queue' },
         { text: '树', link: '/leetbook/tree' }, // 包括树，二叉树，N叉树
+        // 二分查找 https://leetcode-cn.com/leetbook/detail/binary-search/
         // { text: '二分查找', link: '/leetbook/binary-search' },
+        // 二叉树 https://leetcode-cn.com/leetbook/detail/data-structure-binary-tree/
+        // N 叉树 https://leetcode-cn.com/leetbook/detail/n-ary-tree/
+        // { text: '树', link: '/leetcode/tree'}
+        // 前缀树 https://leetcode-cn.com/leetbook/detail/trie/
         // { text: '前缀树', link: '/leetbook/prefix-tree' },
+        // 哈希表 https://leetcode-cn.com/leetbook/detail/hash-table/
         // { text: '哈希表', link: '/leetbook/hash' },
+        // 算法面试题汇总 https://leetcode-cn.com/leetbook/detail/top-interview-questions/
+        // { text: '算法面试题汇总', link: '/leetbook/summary' }
       ]
-    }
+    },
+    // 高级算法 https://leetcode-cn.com/leetbook/detail/top-interview-questions-hard/
+    // {
+    //   text: '高级算法',
+    //   children: []
+    // }
   ]
 }
 
