@@ -14,6 +14,7 @@
 **002阶段**
 
 - [ LeetCode 热题 HOT 100](https://leetcode-cn.com/problem-list/2cktkvj/)
+- [算法通关之路](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/) 在线版本，学习专题方法，刷高频题目，疯狂刷
 - [各大大厂校招/社招算法笔试题](https://github.com/sisterAn/JavaScript-Algorithms)
 
 **003阶段**
