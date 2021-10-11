@@ -9,9 +9,12 @@
 - [高级算法 - 提升进阶](https://leetcode-cn.com/leetbook/detail/top-interview-questions-hard/)
 - [算法面试题汇总](https://leetcode-cn.com/leetbook/detail/top-interview-questions/)
 
+阶段学习完成后，必须要归类总结，形成自己的学习笔记和方法。
+
 **002阶段**
 
 - [ LeetCode 热题 HOT 100](https://leetcode-cn.com/problem-list/2cktkvj/)
+- [各大大厂校招/社招算法笔试题](https://github.com/sisterAn/JavaScript-Algorithms)
 
 **003阶段**
 - [Cookbook-Go](https://leetcode-cn.com/leetbook/read/leetcode-cookbook/5is6a6/) 使用Go几百道题
