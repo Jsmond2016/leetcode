@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>
+      树 | 数据结构和算法
+    </title>
+    <meta name="description" content="数据结构和算法小知识汇总">
+    <link rel="stylesheet" href="/leetcode/assets/style.5c73e32f.css">
+    <link rel="modulepreload" href="/leetcode/assets/Home.3297c7b3.js">
+    <link rel="modulepreload" href="/leetcode/assets/AlgoliaSearchBox.708bae9f.js">
+    <link rel="modulepreload" href="/leetcode/assets/app.a0fc6f0b.js">
+    <link rel="modulepreload" href="/leetcode/assets/base_tree.md.60f4813b.lean.js">
+    <link rel="modulepreload" href="/leetcode/assets/app.a0fc6f0b.js">
+    
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme"><header class="nav-bar" data-v-5df6160f><div class="sidebar-button" data-v-5df6160f><svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z" class></path></svg></div><a class="nav-bar-title" href="/leetcode/" aria-label="数据结构和算法, back to home" data-v-5df6160f data-v-8dbfef3c><!----> 数据结构和算法</a><div class="flex-grow" data-v-5df6160f></div><div class="nav" data-v-5df6160f><nav class="nav-links" data-v-5df6160f data-v-38e3b123><!--[--><div class="item" data-v-38e3b123><div class="nav-link" data-v-38e3b123 data-v-45eb32c6><a class="item active" href="/leetcode/" data-v-45eb32c6>首页 <!----></a></div></div><!--]--><!----><div class="item" data-v-38e3b123><div class="nav-link" data-v-38e3b123 data-v-45eb32c6><a class="item isExternal" href="https://github.com/Jsmond2016/leetcode" target="_blank" rel="noopener noreferrer" data-v-45eb32c6>GitHub <svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-45eb32c6><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div></div></nav></div><!--[--><!--[--><div class="algolia-search-box" id="docsearch"></div><!--]--><!--]--></header><aside class="sidebar" data-v-58e261f2><nav class="nav-links nav" data-v-58e261f2 data-v-38e3b123><!--[--><div class="item" data-v-38e3b123><div class="nav-link" data-v-38e3b123 data-v-45eb32c6><a class="item active" href="/leetcode/" data-v-45eb32c6>首页 <!----></a></div></div><!--]--><!----><div class="item" data-v-38e3b123><div class="nav-link" data-v-38e3b123 data-v-45eb32c6><a class="item isExternal" href="https://github.com/Jsmond2016/leetcode" target="_blank" rel="noopener noreferrer" data-v-45eb32c6>GitHub <svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-45eb32c6><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div></div></nav><!--[--><!--]--><ul class="sidebar-links" data-v-58e261f2><!--[--><li class="sidebar-link"><p class="sidebar-link-item">数据结构知识</p><ul class="sidebar-links"><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/base/complexity">复杂度</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/base/array">数组</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/base/linkedlist">链表</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item active" href="/leetcode/base/tree">树</a><!----></li></ul></li><li class="sidebar-link"><p class="sidebar-link-item">算法思想</p><ul class="sidebar-links"><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/advance/dual-slidingpointer">双指针</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/advance/binary-search">二分查找</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/advance/slide-window">滑动窗口</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/advance/recursion">递归</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/advance/divide">分治</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/advance/backtrace">回溯</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/advance/dfs">DFS</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/advance/bfs">BFS</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/advance/union-find">并查集</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/advance/greddy">贪心算法</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/advance/memory-search">记忆化搜索</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/advance/dp">动态规划</a><!----></li></ul></li><li class="sidebar-link"><p class="sidebar-link-item">分类题集</p><ul class="sidebar-links"><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/leetbook/linked-list">链表</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/leetbook/array-string">数组和字符串</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/leetbook/tree">树</a><!----></li></ul></li><!--]--></ul><!--[--><!--]--></aside><!-- TODO: make this button accessible --><div class="sidebar-mask"></div><main class="page" data-v-d36a7fda><div class="container" data-v-d36a7fda><!--[--><!--]--><div class="content" data-v-d36a7fda><div data-v-d36a7fda><h1 id="树"><a class="header-anchor" href="#树" aria-hidden="true">#</a> 树</h1><blockquote><p>参考教程：<a href="https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/thinkings/tree" target="_blank" rel="noopener noreferrer">树专题</a></p></blockquote><p>dfs 模板:</p><ul><li>使用颜色标记节点的状态，新节点为白色，已访问的节点为灰色。</li><li>如果遇到的节点为白色，则将其标记为灰色，然后将其右子节点、自身、左子节点依次入栈。</li><li>如果遇到的节点为灰色，则将节点的值输出。</li></ul><p>使用栈：</p><div class="language-python"><pre><code><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">inorderTraversal</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> root<span class="token punctuation">:</span> TreeNode<span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">&gt;</span> List<span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+        WHITE<span class="token punctuation">,</span> GRAY <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span>
+        res <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+        stack <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">(</span>WHITE<span class="token punctuation">,</span> root<span class="token punctuation">)</span><span class="token punctuation">]</span>
+        <span class="token keyword">while</span> stack<span class="token punctuation">:</span>
+            color<span class="token punctuation">,</span> node <span class="token operator">=</span> stack<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token punctuation">)</span>
+            <span class="token keyword">if</span> node <span class="token keyword">is</span> <span class="token boolean">None</span><span class="token punctuation">:</span> <span class="token keyword">continue</span>
+            <span class="token keyword">if</span> color <span class="token operator">==</span> WHITE<span class="token punctuation">:</span>
+                stack<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token punctuation">(</span>WHITE<span class="token punctuation">,</span> node<span class="token punctuation">.</span>right<span class="token punctuation">)</span><span class="token punctuation">)</span>
+                stack<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token punctuation">(</span>GRAY<span class="token punctuation">,</span> node<span class="token punctuation">)</span><span class="token punctuation">)</span>
+                stack<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token punctuation">(</span>WHITE<span class="token punctuation">,</span> node<span class="token punctuation">.</span>left<span class="token punctuation">)</span><span class="token punctuation">)</span>
+            <span class="token keyword">else</span><span class="token punctuation">:</span>
+                res<span class="token punctuation">.</span>append<span class="token punctuation">(</span>node<span class="token punctuation">.</span>val<span class="token punctuation">)</span>
+        <span class="token keyword">return</span> res
+</code></pre></div><p>使用递归：</p><div class="language-js"><pre><code><span class="token keyword">const</span> visited <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">function</span> <span class="token function">dfs</span><span class="token punctuation">(</span><span class="token parameter">i</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>满足特定条件）<span class="token punctuation">{</span>
+        <span class="token comment">// 返回结果 or 退出搜索空间</span>
+    <span class="token punctuation">}</span>
+
+    visited<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token boolean">true</span> <span class="token comment">// 将当前状态标为已搜索</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span>根据i能到达的下个状态j<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>visited<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">// 如果状态j没有被搜索过</span>
+            <span class="token function">dfs</span><span class="token punctuation">(</span>j<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token comment">// or</span>
+
+<span class="token comment">// 前序遍历</span>
+<span class="token keyword">function</span> <span class="token function">dfs</span><span class="token punctuation">(</span><span class="token parameter">root</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>满足特定条件）<span class="token punctuation">{</span>
+        <span class="token comment">// 返回结果 or 退出搜索空间</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">// 主要逻辑</span>
+    <span class="token function">dfs</span><span class="token punctuation">(</span>root<span class="token punctuation">.</span>left<span class="token punctuation">)</span>
+    <span class="token function">dfs</span><span class="token punctuation">(</span>root<span class="token punctuation">.</span>right<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+
+
+<span class="token comment">// 后续遍历</span>
+<span class="token keyword">function</span> <span class="token function">dfs</span><span class="token punctuation">(</span><span class="token parameter">root</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>满足特定条件）<span class="token punctuation">{</span>
+        <span class="token comment">// 返回结果 or 退出搜索空间</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">dfs</span><span class="token punctuation">(</span>root<span class="token punctuation">.</span>left<span class="token punctuation">)</span>
+    <span class="token function">dfs</span><span class="token punctuation">(</span>root<span class="token punctuation">.</span>right<span class="token punctuation">)</span>
+    <span class="token comment">// 主要逻辑</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><p>bfs 模板：</p><ul><li>首先将根节点放入队列中。</li><li>从队列中取出第一个节点，并检验它是否为目标。如果找到目标，则结束搜索并回传结果。否则将它所有尚未检验过的直接子节点加入队列中。</li><li>若队列为空，表示整张图都检查过了——亦即图中没有欲搜索的目标。结束搜索并回传“找不到目标”。</li><li>重复步骤 2。</li></ul><p>使用队列：</p><div class="language-javascript"><pre><code><span class="token keyword">const</span> visited <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">function</span> <span class="token function">bfs</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> q <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Queue</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    q<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>初始状态<span class="token punctuation">)</span>
+    <span class="token keyword">while</span><span class="token punctuation">(</span>q<span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">let</span> i <span class="token operator">=</span> q<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>visited<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token keyword">continue</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>i 是我们要找的目标<span class="token punctuation">)</span> <span class="token keyword">return</span> 结果
+        <span class="token keyword">for</span> <span class="token punctuation">(</span>i的可抵达状态j<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>j 合法<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                q<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>j<span class="token punctuation">)</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> 没找到
+<span class="token punctuation">}</span>
+
+</code></pre></div><p>详细版：</p><div class="language-python"><pre><code><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">bfs</span><span class="token punctuation">(</span>k<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token comment"># 使用双端队列，而不是数组。因为数组从头部删除元素的时间复杂度为 N，双端队列的底层实现其实是链表。</span>
+        queue <span class="token operator">=</span> collections<span class="token punctuation">.</span>deque<span class="token punctuation">(</span><span class="token punctuation">[</span>root<span class="token punctuation">]</span><span class="token punctuation">)</span>
+        <span class="token comment"># 记录层数</span>
+        steps <span class="token operator">=</span> <span class="token number">0</span>
+        <span class="token comment"># 需要返回的节点</span>
+        ans <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+        <span class="token comment"># 队列不空，生命不止！</span>
+        <span class="token keyword">while</span> queue<span class="token punctuation">:</span>
+            size <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>queue<span class="token punctuation">)</span>
+            <span class="token comment"># 遍历当前层的所有节点</span>
+            <span class="token keyword">for</span> _ <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>size<span class="token punctuation">)</span><span class="token punctuation">:</span>
+                node <span class="token operator">=</span> queue<span class="token punctuation">.</span>popleft<span class="token punctuation">(</span><span class="token punctuation">)</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>step <span class="token operator">==</span> k<span class="token punctuation">)</span> ans<span class="token punctuation">.</span>append<span class="token punctuation">(</span>node<span class="token punctuation">)</span>
+                <span class="token keyword">if</span> node<span class="token punctuation">.</span>right<span class="token punctuation">:</span>
+                    queue<span class="token punctuation">.</span>append<span class="token punctuation">(</span>node<span class="token punctuation">.</span>right<span class="token punctuation">)</span>
+                <span class="token keyword">if</span> node<span class="token punctuation">.</span>left<span class="token punctuation">:</span>
+                    queue<span class="token punctuation">.</span>append<span class="token punctuation">(</span>node<span class="token punctuation">.</span>left<span class="token punctuation">)</span>
+            <span class="token comment"># 遍历完当前层所有的节点后 steps + 1</span>
+            steps <span class="token operator">+=</span> <span class="token number">1</span>
+        <span class="token keyword">return</span> ans
+</code></pre></div><p>推荐大家先把本文提到的题目都做一遍，然后用本文学到的知识做一下下面十道练习题，检验一下自己的学习成果吧！</p><ul><li>剑指 Offer 55 - I.</li><li>二叉树的深度</li><li>剑指 Offer 34. 二叉树中和为某一值的路径</li><li><ol start="101"><li>对称二叉树</li></ol></li><li><ol start="226"><li>翻转二叉树</li></ol></li><li><ol start="543"><li>二叉树的直径</li></ol></li><li><ol start="662"><li>二叉树最大宽度</li></ol></li><li><ol start="971"><li>翻转二叉树以匹配先序遍历</li></ol></li><li><ol start="987"><li>二叉树的垂序遍历</li></ol></li><li><ol start="863"><li>二叉树中所有距离为 K 的结点</li></ol></li><li><a href="https://leetcode-cn.com/problems/successor-lcci/" target="_blank" rel="noopener noreferrer">面试题 04.06. 后继者</a></li></ul></div></div><footer class="page-footer" data-v-d36a7fda data-v-5a019cc9><div class="edit" data-v-5a019cc9><div class="edit-link" data-v-5a019cc9 data-v-3ae295f1><a class="link" href="https://github.com/Jsmond2016/leetcode/edit/master/docs/base/tree.md" target="_blank" rel="noopener noreferrer" data-v-3ae295f1>编辑本页 <svg class="icon outbound icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-3ae295f1><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div></div><div class="updated" data-v-5a019cc9><p class="last-updated" data-v-5a019cc9 data-v-52854a16><span class="prefix" data-v-52854a16>最后更新时间:</span><span class="datetime" data-v-52854a16></span></p></div></footer><div class="next-and-prev-link" data-v-d36a7fda data-v-6683615c><div class="container" data-v-6683615c><div class="prev" data-v-6683615c><a class="link" href="/leetcode/base/linkedlist" data-v-6683615c><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="icon icon-prev" data-v-6683615c><path d="M19,11H7.4l5.3-5.3c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-7,7c-0.1,0.1-0.2,0.2-0.2,0.3c-0.1,0.2-0.1,0.5,0,0.8c0.1,0.1,0.1,0.2,0.2,0.3l7,7c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3c0.4-0.4,0.4-1,0-1.4L7.4,13H19c0.6,0,1-0.4,1-1S19.6,11,19,11z"></path></svg><span class="text" data-v-6683615c>链表</span></a></div><div class="next" data-v-6683615c><a class="link" href="/leetcode/advance/dual-slidingpointer" data-v-6683615c><span class="text" data-v-6683615c>双指针</span><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="icon icon-next" data-v-6683615c><path d="M19.9,12.4c0.1-0.2,0.1-0.5,0-0.8c-0.1-0.1-0.1-0.2-0.2-0.3l-7-7c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l5.3,5.3H5c-0.6,0-1,0.4-1,1s0.4,1,1,1h11.6l-5.3,5.3c-0.4,0.4-0.4,1,0,1.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l7-7C19.8,12.6,19.9,12.5,19.9,12.4z"></path></svg></a></div></div></div><!--[--><!--]--></div></main></div><!----><!--]--></div>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"index.md\":\"48547a4a\",\"advance_backtrace.md\":\"f75f9ce5\",\"advance_bfs.md\":\"85a932ff\",\"advance_binary-search.md\":\"b1125951\",\"advance_dfs.md\":\"ab07af89\",\"advance_divide.md\":\"aaf89182\",\"advance_dp.md\":\"c51b734c\",\"advance_dual-slidingpointer.md\":\"78c6b7b5\",\"advance_greddy.md\":\"63d9f5e3\",\"advance_memory-search.md\":\"78aa9655\",\"advance_recursion.md\":\"4f48dd10\",\"advance_slide-window.md\":\"7a753de3\",\"advance_union-find.md\":\"84e3a097\",\"base_array.md\":\"dffb317d\",\"base_complexity.md\":\"0a844e63\",\"base_linkedlist.md\":\"89aec310\",\"base_tree.md\":\"60f4813b\",\"leetbook_array-string.md\":\"5b2e89d5\",\"leetbook_linked-list.md\":\"8d3f597b\",\"leetbook_tree.md\":\"d16c9b25\"}")</script>
+    <script type="module" async src="/leetcode/assets/app.a0fc6f0b.js"></script>
+  </body>
+</html>
