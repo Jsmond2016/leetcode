@@ -64,7 +64,7 @@ function getGuideSidebar() {
         // { text: '队列', link: '/base/queue' },
         // { text: '栈', link: '/base/stack' },
         // { text: '哈希集合', link: '/base/hash-collection' },
-        // { text: '树', link: '/base/tree' },
+        { text: '树', link: '/base/tree' },
         // { text: '堆', link: '/base/heap' },
       ]
     },
