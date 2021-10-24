@@ -8,7 +8,7 @@
 - [中级算法 - 巩固训练](https://leetcode-cn.com/leetbook/detail/top-interview-questions-medium/)
 - [高级算法 - 提升进阶](https://leetcode-cn.com/leetbook/detail/top-interview-questions-hard/)
 - [算法面试题汇总](https://leetcode-cn.com/leetbook/detail/top-interview-questions/)
-
+- [重新分类 Leetcode 高频题 2021 版](https://github.com/Jsmond2016/Leetcode-retag) 按照专题，从易到难刷题
 阶段学习完成后，必须要归类总结，形成自己的学习笔记和方法。
 
 **002阶段**
