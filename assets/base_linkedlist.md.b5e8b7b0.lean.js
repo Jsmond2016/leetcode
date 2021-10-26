@@ -1,0 +1,1 @@
+import{o as l,c as e,a as i}from"./app.a0fc6f0b.js";const r='{"title":"链表","description":"","frontmatter":{},"relativePath":"base/linkedlist.md","lastUpdated":1635257730423}',t={},o=i('',8);t.render=function(i,r,t,a,n,s){return l(),e("div",null,[o])};export default t;export{r as __pageData};
