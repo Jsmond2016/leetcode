@@ -1,0 +1,1 @@
+import{o as e,c as l,a as r}from"./app.35dd8900.js";const i='{"title":"链表","description":"","frontmatter":{},"relativePath":"base/linkedlist.md","lastUpdated":1636187055003}',t={},o=r('',8);t.render=function(r,i,t,a,n,s){return e(),l("div",null,[o])};export default t;export{i as __pageData};
