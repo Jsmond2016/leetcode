@@ -56,6 +56,10 @@ module.exports = {
 function getGuideSidebar() {
   return [
     {
+      text: '导读',
+      link: '/home'
+    },
+    {
       text: '数据结构知识',
       children: [
         { text: '复杂度', link: '/base/complexity' },
