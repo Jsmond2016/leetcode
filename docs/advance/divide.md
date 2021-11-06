@@ -9,15 +9,15 @@
 
 例题：
 
-- 169
-- 53
-- 215
+- 169 多数元素
+- 53 最大子序和
+- 215 数组中的第K个最大元素
 
 ---
 
 ## 题型一
 
-### [169. 多数元素](https://leetcode-cn.com/problems/majority-element/)
+- [169. 多数元素](https://leetcode-cn.com/problems/majority-element/)
 
 难度简单
 
@@ -96,7 +96,7 @@ function getMajority(nums, left, right) {
 
 
 
-### [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+- [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
 
 难度简单
 

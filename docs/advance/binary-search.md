@@ -1,19 +1,20 @@
 # 二分查找法
 
 - 算法思想：
-
+- 常用策略/模板：
 - 时间复杂度：log2 N
+- 练习题
 
 例题：
 
-- 704
-- 35
-- 162
-- 74
+- 704 二分查找
+- 35 搜索插入位置
+- 162 寻找峰值
+- 74 搜索二维矩阵
 
 ## 找位置/目标值
 
-### [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)
+- [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)
 
 难度简单
 
@@ -78,7 +79,7 @@ var search = function(nums, target) {
 
 
 
-### [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
+- [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
 
 难度简单
 
@@ -149,7 +150,7 @@ var searchInsert = function(nums, target) {
 
 
 
-### [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)
+- [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)
 
 难度中等
 
@@ -224,7 +225,7 @@ var findPeakElement = function(nums) {
 
 
 
-### [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+- [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
 
 难度中等
 

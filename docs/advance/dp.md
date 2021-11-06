@@ -32,7 +32,7 @@
 
 ##  题型一：
 
-### [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
+- [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
 
 难度简单260收藏分享切换为英文接收动态反馈
 
@@ -106,7 +106,7 @@ var fib = function(n) {
 
 
 
-### [62. 不同路径](https://leetcode-cn.com/problems/unique-paths/)
+- [62. 不同路径](https://leetcode-cn.com/problems/unique-paths/)
 
 难度中等936收藏分享切换为英文接收动态反馈
 
@@ -219,7 +219,7 @@ var uniquePaths = function(m, n) {
 
 
 
-### [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+- [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 
 难度简单1539收藏分享切换为英文接收动态反馈
 
@@ -294,7 +294,7 @@ var maxProfit = function(prices) {
 
 
 
-### [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
+- [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
 
 难度简单1571收藏分享切换为英文接收动态反馈
 
@@ -380,7 +380,7 @@ var climbStairs = function(n) {
 
 
 
-### [279. 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
+- [279. 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
 
 难度中等816收藏分享切换为英文接收动态反馈
 

@@ -20,7 +20,7 @@
 
 ## 双指针模板
 
-### [剑指 Offer 57 - II. 和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
+- [剑指 Offer 57 - II. 和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
 
 输入一个正整数 target ，输出所有和为 target 的连续正整数序列（至少含有两个数）。
 
@@ -82,7 +82,7 @@ var findContinuousSequence = function(target) {
 
 ## 普通双指针
 
-### [26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+- [26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 
 
 给你一个有序数组 nums ，请你 原地 删除重复出现的元素，使每个元素 只出现一次 ，返回删除后数组的新长度。
@@ -153,7 +153,7 @@ var removeDuplicates = function(nums) {
 
 ## 快慢指针
 
-### [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+- [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
 
 难度简单
 
@@ -242,7 +242,7 @@ var hasCycle = function(head) {
 
 ## 对撞指针
 
-### [881. 救生艇](https://leetcode-cn.com/problems/boats-to-save-people/)
+- [881. 救生艇](https://leetcode-cn.com/problems/boats-to-save-people/)
 
 难度中等
 

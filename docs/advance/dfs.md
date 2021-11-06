@@ -7,8 +7,8 @@ DFS 和 回溯算法的区别：
 例题：
 
 - 78 子集
-- 938
-- 200：超级经典的题目
+- 938 二叉搜索树的范围和
+- 200 岛屿数量（说明：超级经典的题目）
 
 ---
 
@@ -16,7 +16,7 @@ DFS 和 回溯算法的区别：
 
 ## 题型一
 
-### [78. 子集](https://leetcode-cn.com/problems/subsets/)
+- [78. 子集](https://leetcode-cn.com/problems/subsets/)
 
 难度中等
 
@@ -81,7 +81,7 @@ function dfs (nums, result, index, sub) {
 
 
 
-### [938. 二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/)
+- [938. 二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/)
 
 难度简单163收藏分享切换为英文接收动态反馈
 
@@ -215,7 +215,7 @@ var rangeSumBST = function(root, low, high) {
 
 
 
-### [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
+- [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
 
 难度中等
 

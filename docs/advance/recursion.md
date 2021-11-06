@@ -8,9 +8,9 @@
 
 例题：
 
-- 509
-- 206
-- 344
+- 509 斐波那契数
+- 206 反转链表
+- 344 反转字符串
 
 递归算法四要素：
 
@@ -22,7 +22,7 @@
 
 ## 题型一
 
-### [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
+- [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
 
 难度简单
 
@@ -88,7 +88,7 @@ var fib = function(n) {
 
 
 
-### [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+- [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 
 难度简单1691收藏分享切换为英文接收动态反馈
 
@@ -199,7 +199,7 @@ var reverseList = function(head) {
 
 
 
-### [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)
+- [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)
 
 难度简单368收藏分享切换为英文接收动态反馈
 

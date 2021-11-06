@@ -71,6 +71,7 @@ function getGuideSidebar() {
     {
       text: '算法思想',
       children: [
+        { text: '书写模板', link: '/advance/template' },
         { text: '双指针', link: '/advance/dual-slidingpointer' },
         { text: '二分查找', link: '/advance/binary-search' },
         { text: '滑动窗口', link: '/advance/slide-window' },

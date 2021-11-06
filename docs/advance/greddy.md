@@ -20,7 +20,7 @@
 
 ## 题型一：
 
-#### [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
+- [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
 
 难度中等1145收藏分享切换为英文接收动态反馈
 
@@ -190,7 +190,7 @@ function memorySearch (coins, rem, count) {
 
 
 
-### [1217. 玩筹码](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
+- [1217. 玩筹码](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
 
 难度简单81
 
@@ -256,7 +256,7 @@ var minCostToMoveChips = function(position) {
 
 
 
-### [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
+- [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
 
 难度中等1100
 

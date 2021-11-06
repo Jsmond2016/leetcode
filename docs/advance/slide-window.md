@@ -1,11 +1,13 @@
 # 滑动窗口
 
-滑动窗口模板
+- 算法思想：
+- 常用策略/模板：
+
 
 ```js
 let left = 0, right = 0;
 
-while (right < s.size()) {`
+while (right < s.size()) {
     // 增大窗口
     window.add(s[right]);
     right++;
@@ -23,10 +25,10 @@ while (right < s.size()) {`
 //著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 
-适用题型：
+- 适用题型：
 
-- 定长数组
-- 目的：减少 while 循环的次数
+  - 定长数组
+  - 目的：减少 while 循环的次数
 
 如图：如果 3 个为一组，第一组为 `[1,4,2]` ，第二组为 `[4.2.3]` 这里 `[4,2]` 重复计算了。使用滑动窗口就是为了避免这种重复计算。
 
@@ -34,15 +36,15 @@ while (right < s.size()) {`
 
 
 
-例题：
+- 例题：
 
-- 209 长度最小的子数组
-- 1456
+  - 209 长度最小的子数组
+  - 1456 定长子串中元音的最大数目
 
 
 ---
 
-### [剑指 Offer 57 - II. 和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
+- [剑指 Offer 57 - II. 和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
 
 输入一个正整数 target ，输出所有和为 target 的连续正整数序列（至少含有两个数）。
 

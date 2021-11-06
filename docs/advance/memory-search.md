@@ -11,7 +11,7 @@
 
 ## 题型一
 
-### [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
+- [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
 
 难度简单
 
@@ -109,7 +109,7 @@ function memorySearch(n, map) {
 
 
 
-### [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
+- [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
 
 难度中等
 

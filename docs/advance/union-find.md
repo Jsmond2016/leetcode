@@ -83,8 +83,8 @@ class UniFind {
 
 练习题：
 
-- 200
-- 547
+- 200 岛屿数量
+- 547 省份数量
 
 
 
@@ -117,7 +117,7 @@ class UniFind {
 
 ## 题型一
 
-### [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
+- [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
 
 难度中等
 
@@ -250,7 +250,7 @@ class UniFind {
 
 
 
-### [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)
+- [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)
 
 难度中等
 

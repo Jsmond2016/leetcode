@@ -9,17 +9,17 @@
 
 例题：
 
-- 22
-- 78：代表性回溯题
-- 77
-- 46
+- 22 括号生成
+- 78 代表性回溯题
+- 77 组合
+- 46 全排列
 - 经典：八皇后，数独
 
 ---
 
 ## 题型一
 
-### [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
+- [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
 
 难度中等1640收藏分享切换为英文接收动态反馈
 
@@ -93,7 +93,7 @@ function backtracking(n, result, left, right, str) {
 
 
 
-### [78. 子集](https://leetcode-cn.com/problems/subsets/)
+- [78. 子集](https://leetcode-cn.com/problems/subsets/)
 
 难度中等1059收藏分享切换为英文接收动态反馈
 
