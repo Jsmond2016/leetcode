@@ -88,7 +88,7 @@ function getGuideSidebar() {
         {text: '贪心算法',link: '/advance/greddy'},
         {text: '记忆化搜索',link: '/advance/memory-search'},
         {text: '动态规划',link: '/advance/dp'},
-      //   {text: '前缀树',link: '/advance/prefix-tree'},
+        {text: '前缀树',link: '/advance/prefix-tree'},
       ]
     },
     {
