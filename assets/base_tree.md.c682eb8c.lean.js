@@ -1,1 +1,0 @@
-import{o as n,c as s,d as a}from"./app.d77a6eb2.js";const p='{"title":"树","description":"","frontmatter":{},"relativePath":"base/tree.md","lastUpdated":1636195210490}',t={},o=a('',16);t.render=function(a,p,t,c,e,u){return n(),s("div",null,[o])};export default t;export{p as __pageData};

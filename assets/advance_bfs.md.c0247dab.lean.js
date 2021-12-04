@@ -1,0 +1,1 @@
+import{o as n,c as s,d as a}from"./app.08f538b2.js";const p='{"title":"广度优先遍历算法思想","description":"","frontmatter":{},"headers":[{"level":2,"title":"题型一","slug":"题型一"}],"relativePath":"advance/bfs.md","lastUpdated":1638594597827}',t={},o=a('',48);t.render=function(a,p,t,e,c,u){return n(),s("div",null,[o])};export default t;export{p as __pageData};
