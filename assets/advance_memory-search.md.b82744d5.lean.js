@@ -1,0 +1,1 @@
+import{o as n,c as s,d as a}from"./app.08f538b2.js";const p='{"title":"记忆化搜索算法思想","description":"","frontmatter":{},"headers":[{"level":2,"title":"题型一","slug":"题型一"}],"relativePath":"advance/memory-search.md","lastUpdated":1646542714202}',o={},t=a('',43);o.render=function(a,p,o,e,c,l){return n(),s("div",null,[t])};export default o;export{p as __pageData};
