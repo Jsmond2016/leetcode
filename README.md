@@ -18,6 +18,12 @@
 - [腾讯面试题](./leetbook-tecent/README.md)
 
 
+## 待完成
+
+- [初级算法](./leetbook-easy/README.md)
+- [中级算法](./leetbook-medium/README.md)
+
+
 | 题目 | 难度 | 类型 \| tag |
 | :--: | :--: | :---------: |
 |      |      |             |
